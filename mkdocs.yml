@@ -1,6 +1,7 @@
 site_name: 运维知识库
 site_description: 个人运维经验知识库 - Windows / 桌面运维 / 网络 / Linux / 服务器
 site_author: yangskun
+site_url: https://yangskun.github.io/ops-knowledge/
 
 site_dir: ../knowledge-site
 
