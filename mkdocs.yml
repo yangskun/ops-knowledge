@@ -1,0 +1,86 @@
+site_name: 运维知识库
+site_description: 个人运维经验知识库 - Windows / 桌面运维 / 网络 / Linux / 服务器
+site_author: yangskun
+site_url: https://yangskun.github.io/ops-knowledge/
+
+site_dir: ../knowledge-site
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切换深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 切换浅色模式
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+  - tags:
+      tags_file: tags.md
+
+nav:
+  - 首页: README.md
+  - Windows 系统:
+      - 概览: 01-Windows系统/README.md
+      - 系统维护:
+          - Windows 更新:禁用与恢复: 01-Windows系统/系统维护/Windows更新-禁用与恢复.md
+          - C 盘空间清理 SOP: 01-Windows系统/系统维护/C盘-空间清理.md
+      - 故障排查:
+          - 蓝屏(BSOD)分析 SOP: 01-Windows系统/故障排查/蓝屏BSOD-分析.md
+  - 桌面运维软硬件:
+      - 概览: 02-桌面运维软硬件/README.md
+      - 硬件故障:
+          - 打印机故障排查 SOP: 02-桌面运维软硬件/硬件故障/打印机-故障排查.md
+          - DP/HDMI 外设故障排查: 02-桌面运维软硬件/硬件故障/DP与HDMI-外设故障排查.md
+  - 网络:
+      - 概览: 03-网络/README.md
+      - 排错实战:
+          - AC+AP 与 VLAN 网络排错: 03-网络/排错实战/AC与VLAN-网络排错.md
+  - Linux:
+      - 概览: 04-Linux/README.md
+      - 银河麒麟:
+          - 银河麒麟 + 鲲鹏(ARM)适配要点: 04-Linux/银河麒麟/银河麒麟-鲲鹏适配.md
+  - 服务器:
+      - 概览: 05-服务器/README.md
+      - 硬件与 RAID:
+          - RAID 故障灯码解读: 05-服务器/硬件与RAID/RAID灯码-解读.md
+  - 模板:
+      - 故障排查模板: 99-模板/故障排查模板.md
