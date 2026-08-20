@@ -1,0 +1,12 @@
+# MkDocs 构建输出(不提交)
+knowledge-site/
+site/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 系统
+.DS_Store
+Thumbs.db
