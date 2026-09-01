@@ -11,6 +11,7 @@
 | [03-网络](03-网络/README.md) | 基础概念(AC+AP/VLAN)、排错实战 |
 | [04-Linux](04-Linux/README.md) | CentOS/Ubuntu 基础命令、银河麒麟(鲲鹏适配) |
 | [05-服务器](05-服务器/README.md) | 硬件与 RAID(Dell/华为/联想、灯码、OMSA)、虚拟化(ESXi)、存储 NAS |
+| [06-AI](06-AI/README.md) | 大模型平台(TokenHub 免费额度与辅助模型配置)、AI 工具 |
 | [99-模板](99-模板/故障排查模板.md) | 文章格式模板 |
 
 ## 命名规范

@@ -4,9 +4,11 @@
 
 ## 硬件与 RAID
 - [x] [RAID 故障灯码解读](硬件与RAID/RAID灯码-解读.md)
+- [x] [DELL 服务器 BIOS 配置 RAID 阵列(图文教程)](硬件与RAID/DELL-BIOS配置RAID-图文教程.md)
+- [x] [Dell服务器-Linux忘记密码-复盘与正确做法](硬件与RAID/Dell服务器-Linux忘记密码-复盘与正确做法.md)
 - [ ] Dell 服务器(OMSA、iDRAC、灯码)
 - [ ] 华为/联想服务器(管理口、灯码)
-- [ ] RAID 配置与阵列故障排查(RAID0/1/5/6/10)
+- [x] RAID 配置与阵列故障排查(RAID0/1/5/6/10)
 - [ ] 固件升级(BIOS/iDRAC/阵列卡)
 - [ ] 硬盘更换与热备策略
 
