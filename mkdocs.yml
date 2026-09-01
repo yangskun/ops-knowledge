@@ -76,11 +76,21 @@ nav:
           - AC+AP 与 VLAN 网络排错: 03-网络/排错实战/AC与VLAN-网络排错.md
   - Linux:
       - 概览: 04-Linux/README.md
+      - 基础命令:
+          - Linux 服务器基础运维速查: 04-Linux/基础命令/Linux服务器-基础运维速查.md
+          - Linux U盘-文件传输与挂载: 04-Linux/基础命令/U盘-文件传输与挂载.md
+          - Linux U盘-重装系统: 04-Linux/基础命令/U盘-重装系统.md
       - 银河麒麟:
           - 银河麒麟 + 鲲鹏(ARM)适配要点: 04-Linux/银河麒麟/银河麒麟-鲲鹏适配.md
   - 服务器:
       - 概览: 05-服务器/README.md
       - 硬件与 RAID:
           - RAID 故障灯码解读: 05-服务器/硬件与RAID/RAID灯码-解读.md
+          - DELL BIOS 配置 RAID 阵列(图文教程): 05-服务器/硬件与RAID/DELL-BIOS配置RAID-图文教程.md
+          - Dell服务器 Linux忘记密码-复盘与正确做法: 05-服务器/硬件与RAID/Dell服务器-Linux忘记密码-复盘与正确做法.md
+  - AI:
+      - 概览: 06-AI/README.md
+      - LLM 平台:
+          - TokenHub 免费额度与辅助模型配置: 06-AI/LLM平台/TokenHub-免费额度与辅助模型配置.md
   - 模板:
       - 故障排查模板: 99-模板/故障排查模板.md
