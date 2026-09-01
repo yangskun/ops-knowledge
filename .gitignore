@@ -6,6 +6,7 @@ site/
 __pycache__/
 *.pyc
 *.pyo
+.venv/
 
 # 系统
 .DS_Store
